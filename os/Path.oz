@@ -299,7 +299,7 @@ define
 	 {Getcwd}
       end
       meth mkdir()
-	 {OS.mkDir @info.string}
+	 {OS.mkDir @info.string ['S_IRUSR' 'S_IWUSR' 'S_IXUSR' 'S_IRGRP' 'S_IWGRP' 'S_IXGRP' 'S_IROTH' 'S_IWOTH' 'S_IXOTH']}
       end
       meth mkdirs()
 	 if @info.components==nil then skip else
