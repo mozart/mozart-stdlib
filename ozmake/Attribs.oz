@@ -73,9 +73,9 @@ define
 	 PackageGiven:false
 	 Archive    :
 	    if {Fixes.condGet '>=1.3.0' false} then
-	       'http://www.mozart-oz.org/mogul/pkg'
+	       'http://mozart.github.io/mogul/pkg'
 	    else
-	       'http://www.mozart-oz.org/mogul/pkg/1.2.5/source'
+	       'http://mozart.github.io/mogul/pkg/1.2.5/source'
 	    end
 	 LineWidth  : 70
 	 NoMakefile : true
